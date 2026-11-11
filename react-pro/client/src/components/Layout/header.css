@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  background-color: rgb(227, 204, 174);
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  list-style-type: none;
+  color: white;
+}
+nav-links li {
+  cursor: pointer;
+}
+
+h1 {
+  max-width: 200px;
+  height: fit-content;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  background-color: rgb(227, 204, 174);
+  height:10vh;;
+}
