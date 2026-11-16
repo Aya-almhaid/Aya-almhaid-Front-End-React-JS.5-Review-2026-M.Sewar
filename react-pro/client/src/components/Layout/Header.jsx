@@ -8,12 +8,24 @@ export default function Header() {
           <h1>logo</h1>
           <div>
             <ul className="nav-links">
-              <li>Home</li>
-              <li>About</li>
-              <li>Contact</li>
-              <li>Login</li>
-              <li>Register</li>
-              <li>Services</li>
+              <li>
+                <a href="">Home</a>
+              </li>
+              <li>
+                <a href="">About</a>
+              </li>
+              <li>
+                <a href="">Contact</a>
+              </li>
+              <li>
+                <a href="">Login</a>
+              </li>
+              <li>
+                <a href="">Register</a>
+              </li>
+              <li>
+                <a href="">Services</a>
+              </li>
             </ul>
           </div>
         </nav>
